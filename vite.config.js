@@ -7,6 +7,7 @@ export default defineConfig({
   },
   build: {
     assetsInlineLimit: 0, // Evita que los archivos grandes se transformen en base64
+     copyPublicDir: true, // 👈 Esto asegura que Vite copie `public/` a `dist/`
     rollupOptions: {
       input: {
         main: "index.html",
