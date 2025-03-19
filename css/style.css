@@ -69,7 +69,7 @@ canvas {
     display: flex;
     align-items: center;
     justify-content:end;
-    background-image: url("../assets/mountain.jpg");
+    background-image: url("../Public/assets/mountain.jpg");
     background-size: contain;
 }
 .materials {
@@ -77,7 +77,7 @@ canvas {
     display: flex;
     align-items: center;
     justify-content:end;
-    background-image: url("../assets/Desert.jpg");
+    background-image: url("../Public/assets/Desert.jpg");
     background-position: center;
     background-size: contain;
 }
@@ -87,7 +87,7 @@ canvas {
         display: flex;
         align-items: center;
         justify-content:end;
-        background-image: url("../assets/jungle.jpg");
+        background-image: url("../Public/assets/jungle.jpg");
         background-position: center;
         background-size: contain;
 }
