@@ -25,7 +25,7 @@ let bottle = null;
 // Cargar el modelo 3D
 const loader = new GLTFLoader();
 loader.load(
-    "/assets/bottle.glb",
+    "/models/bottle.glb",
     (gltf) => {
         bottle = gltf.scene;
         bottle.scale.set(3, 3, 3); // Ajusta tamaño
